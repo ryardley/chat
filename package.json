@@ -1,0 +1,11 @@
+{
+  "name": "attackdigital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudi Yardley <contact@rudiyardley.com> (http://rudiyardley.com)",
+  "license": "ISC"
+}
