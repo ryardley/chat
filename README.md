@@ -26,7 +26,7 @@ npm install -g eslint
 ```
 
 ## Prereq: Use correct Node version
-Use [avn](https://github.com/wbyoung/avn) with whatever manager you choose so your terminal will pick the correct version of node to use.
+Use [avn](https://github.com/wbyoung/avn) with whatever manager you choose so your terminal will pick the correct version of node to use from the `.node-version` file.
 
 ## Install the deps
 
