@@ -5,7 +5,8 @@ const app = express();
 app.set('view engine', 'pug');
 app.set('views', path.resolve(__dirname, '..', 'src', 'views'));
 
-app.use(express.static('src/public'));
+app.use(express.static(path.resolve(__dirname, '..', 'src', 'public')));
+
 app.use(webpackMiddleware);
 
 app.use('/js', express.static(`${__dirname}/js`));
