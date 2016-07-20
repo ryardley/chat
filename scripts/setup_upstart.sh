@@ -1,1 +1,0 @@
-useradd -G $PROJECT $PROJECT
