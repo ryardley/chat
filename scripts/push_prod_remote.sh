@@ -2,7 +2,7 @@ cd ./${PROJECT}
 WD=$(pwd)
 echo 'Pulling down remote repo...'
 git pull
-npm i
+npm i --only=production
 npm run build
 chown -R ${PROJECT}:${PROJECT} ${WD}
 cp -f ${WD}/scripts/conf/nginx.conf /etc/nginx/sites-available/${PROJECT}.conf
