@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  context: `${__dirname}/src/js`,
+  context: `${__dirname}/src/js-entries`,
   entry: ['./main'],
   output: {
     path: path.resolve(__dirname, 'build', 'js'),

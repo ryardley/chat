@@ -11,7 +11,7 @@
     "webpack-build": "webpack",
     "webpack-watch": "webpack-dev-server",
     "dev": "concurrently 'npm run babel-watch' 'npm run node-watch' 'npm run webpack-watch'",
-    "build": "npm run babel-build",
+    "build": "npm run babel-build && npm run webpack-build",
     "start": "node build/index.js"
   },
   "repository": "https://ryardley@bitbucket.org/ryardley/attackdigital.git",
