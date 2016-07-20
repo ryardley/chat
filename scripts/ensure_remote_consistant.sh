@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# This script will sync local and remote git repositories
+# TODO: use a depoyment branch maybe?
+
 set -e
 
 # hold the folder containing this particular file in the DIR var
