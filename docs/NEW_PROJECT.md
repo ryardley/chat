@@ -1,9 +1,2 @@
-Create a new node project.
-
-git init
-npm init
-subl server.js
-mkdir src
-cp scripts
-cp env
-# customise env and scripts
+ssh-keygen -t rsa -b 4096 -C "contact@rudiyardley.com"
+cat ~/.ssh/id_rsa.pub
