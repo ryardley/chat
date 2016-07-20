@@ -7,7 +7,9 @@ useradd -g ${PROJECT} ${PROJECT}
 
 ssh-keyscan bitbucket.org >> ~/.ssh/known_hosts
 
-rm -rf ~/${PROJECT}
-mkdir -p ~/${PROJECT}
+cd ~
+rm -rf /var/www/${PROJECT}
+mkdir -p /var/www/${PROJECT}
+ln -s /var/www/${PROJECT}
 
 git clone ${REPOSITORY} ~/${PROJECT}
