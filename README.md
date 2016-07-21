@@ -50,6 +50,25 @@ This will start watching your code for changes and recompiling and restarting th
 
 # Deploying to a server
 
+### Environment file
+
+Create an `.env` file with your server credentials.
+
+```bash
+cat .env.example > .env
+```
+
+An example is included:
+
+```bash
+DEPLOY_SERVER=123.45.67.89
+DEPLOY_USER=root
+PORT=3456
+PROJECT=myproject
+REPOSITORY=git@bitbucket.org:ryardley/myproject.git
+DOMAIN=myproject.com
+```
+
 ### Deployment Keys
 Login to your new VPS.
 
@@ -79,4 +98,6 @@ npm run push
 
 # TODO
 
-* (maybe) Use a specific deploy branch within git
+* Make sure a non root deploy user works as it probably currently does not.
+* (maybe) Use a specific deploy branch within git.
+
