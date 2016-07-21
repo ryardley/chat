@@ -36,6 +36,12 @@ const prod = {
         warnings: false,
       },
     }),
+    // http://dev.topheman.com/make-your-react-production-minified-version-with-webpack/
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify('production'),
+      },
+    }),
   ],
 };
 
