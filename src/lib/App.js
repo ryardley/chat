@@ -4,6 +4,6 @@ import hello from './hello';
 
 export default class App extends Component {
   render() {
-    return <h3>{hello('work')}</h3>;
+    return <h3>{hello('World')}</h3>;
   }
 }

@@ -9,7 +9,7 @@
     "babel-build": "babel src --out-dir build",
     "node-watch": "nodemon build/index.js",
     "webpack-build": "webpack",
-    "webpack-watch": "webpack-dev-server --hot",
+    "webpack-watch": "webpack-dev-server --hot --inline",
     "dev": "concurrently 'npm run babel-watch' 'npm run node-watch' 'npm run webpack-watch'",
     "build": "npm run babel-build && npm run webpack-build",
     "start": "node build/index.js"
