@@ -18,7 +18,7 @@ const base = {
         exclude: /node_modules/,
         include: [path.resolve(__dirname, 'src')],
         loader: 'babel-loader',
-        test: /\.js$/,
+        test: /\.jsx?$/,
       },
     ],
   },
@@ -33,7 +33,7 @@ const prod = {
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       compress: {
-        warnings: false
+        warnings: false,
       },
     }),
   ],
@@ -42,7 +42,7 @@ const prod = {
 const dev = {
   devtool: '#inline-source-map',
   entry: [
-    'webpack-dev-server/client?http://0.0.0.0:3000',
+    'webpack-dev-server/client?http://0.0.0.0:8080',
     'webpack/hot/only-dev-server',
   ].concat(base.entry),
   module: {
@@ -53,6 +53,10 @@ const dev = {
         loaders: ['react-hot', 'babel-loader'],
       },
     ],
+  },
+  output: {
+    ...base.output,
+    publicPath: `http://localhost:8080${base.output.publicPath}`,
   },
 };
 

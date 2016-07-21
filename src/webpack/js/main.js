@@ -1,5 +1,5 @@
-import hello from '../../lib/hello';
+import App from '../../lib/App';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h3>{hello('Dingback')}</h3>, document.querySelector('#main'));
+ReactDOM.render(<App />, document.querySelector('#main'));

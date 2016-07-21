@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.render('index', { title: 'Hey', message: 'Hello there!' });
 });
 
-const port = process.env.NODE_PORT || 3000;
+const port = process.env.NODE_PORT || 4000;
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`);
