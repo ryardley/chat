@@ -1,4 +1,4 @@
-# ES2016, Node 6, Webpack Template
+# Sweet React Template
 
 This is a template for deployment of a basic ES2016 app to an Ubuntu 14.04 VPS.
 
@@ -11,6 +11,7 @@ The app has the following things:
 * React
 * React Hot Loader
 * Linting with ESLint
+* Handy scripts to deploy to vanilla Ubuntu VPS servers.
 
 # *DISCLAIMER*
 
