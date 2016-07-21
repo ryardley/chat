@@ -64,7 +64,7 @@ Now add the key as a deployment key in your git host.
 ### Install
 
 ```bash
-./scripts/install.sh
+npm run remote-install
 ```
 
 This should prepare everything on the server.
@@ -74,7 +74,7 @@ This should prepare everything on the server.
 Push the code.
 
 ```bash
-./scripts/push_prod.sh
+npm run push
 ```
 
 # TODO
