@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "babel-watch": "babel src --watch --out-dir build",
+    "babel-watch": "babel src --watch --out-dir build --ignore src/entries",
     "babel-build": "babel src --out-dir build",
     "node-watch": "nodemon build/index.js",
     "webpack-build": "webpack",
@@ -19,12 +19,15 @@
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs-simple": "^6.7.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-webpack": "^6.4.1",
     "concurrently": "^2.2.0",
     "express": "^4.14.0",
     "pug": "^2.0.0-beta4",
-    "babel-core": "^6.11.4",
-    "babel-loader": "^6.2.4",
     "webpack": "^1.13.1"
   },
   "devDependencies": {

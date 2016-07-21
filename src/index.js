@@ -1,13 +1,13 @@
 import express from 'express';
 import path from 'path';
-import webpackMiddleware from './utils/webpackMiddleware';
+import webpack from './middleware/webpack';
 const app = express();
 app.set('view engine', 'pug');
 app.set('views', path.resolve(__dirname, '..', 'src', 'views'));
 
 app.use(express.static(path.resolve(__dirname, '..', 'src', 'public')));
 
-app.use(webpackMiddleware);
+app.use(webpack);
 
 app.use('/js', express.static(`${__dirname}/js`));
 
