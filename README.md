@@ -100,4 +100,4 @@ npm run push
 
 * Make sure a non root deploy user works as it probably currently does not.
 * (maybe) Use a specific deploy branch within git.
-
+* Add a pure css launch page
