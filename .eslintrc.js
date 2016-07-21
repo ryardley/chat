@@ -1,11 +1,12 @@
 module.exports = {
-  "extends": "airbnb",
-  "installedESLint": true,
-  "plugins": [
-    "react"
+  'extends': 'airbnb',
+  'installedESLint': true,
+  'parser': 'babel-eslint',
+  'plugins': [
+    'react'
   ],
-  "rules": {
-    "no-console": 0,
-    "no-confusing-arrow": 0,
+  'rules': {
+    'no-console': 0,
+    'no-confusing-arrow': 0,
   },
 };
