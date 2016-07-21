@@ -5,8 +5,11 @@ This is a template for deployment of a basic ES2016 app to an Ubuntu 14.04 VPS.
 The app has the following things:
 
 * Node
-* Express
 * ES2016 via Babel
+* Express
+* Webpack
+* React
+* React Hot Loader
 * Linting with ESLint
 
 # *DISCLAIMER*
