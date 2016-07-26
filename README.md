@@ -1,4 +1,4 @@
-# Sweet React Template
+# Base Template
 
 This is a template for deployment of a basic ES2016 app to an Ubuntu 14.04 VPS.
 
@@ -98,6 +98,7 @@ npm run push
 
 # TODO
 
+* Make fractal modular
 * Make sure a non root deploy user works as it probably currently does not.
 * (maybe) Use a specific deploy branch within git.
 * Add a pure css launch page
