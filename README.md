@@ -17,7 +17,7 @@ The app has the following things:
 
 *I built this as a base template for setting up a simple Node app as I was sick of mucking around with doing this over and over again.*
 
-*I am not a highly trained server admin and there will certainly be faults with my code or things that can be done better or things that make sense for an app with higher scalability concerns. If you have any ideas as to how this template could be included be awesome and let me know or submit a pull request!*
+*There will probably be things that can be done better or things that make sense for an app with higher scalability concerns. If you have any ideas as to how this template could be included be awesome and let me know or submit a pull request!*
 
 *This however works for my most basic common usecase that I get from my clients which is a node app hosted on a single VPS with basic git hosted scripts for deploying.*
 
