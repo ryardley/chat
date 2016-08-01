@@ -13,7 +13,7 @@ The app has the following things:
 * Linting with ESLint
 * Handy scripts to deploy to vanilla Ubuntu VPS servers.
 
-# *DISCLAIMER*
+# Background
 
 *I built this as a base template for setting up a simple Node app as I was sick of mucking around with doing this over and over again.*
 
