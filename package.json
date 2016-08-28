@@ -1,7 +1,7 @@
 {
-  "name": "attackdigital",
+  "name": "chat",
   "version": "0.0.1",
-  "description": "Attack Digital Website",
+  "description": "A toy implementation of a socket.io chat app",
   "main": "index.js",
   "scripts": {
     "babel-build": "babel src --out-dir build",
@@ -16,7 +16,7 @@
     "webpack-build": "webpack",
     "webpack-watch": "webpack-dev-server --hot --inline"
   },
-  "repository": "https://ryardley@bitbucket.org/ryardley/attackdigital.git",
+  "repository": "https://ryardley@bitbucket.org/ryardley/chat.git",
   "author": "Rudi Yardley <contact@rudiyardley.com> (http://rudiyardley.com)",
   "license": "ISC",
   "dependencies": {
